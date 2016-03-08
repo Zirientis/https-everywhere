@@ -1,0 +1,11 @@
+<ruleset name="Theunderminejournal.com">
+	<target host="theunderminejournal.com" />
+	<target host="www.theunderminejournal.com" />
+
+	<rule from="^http:(www)?" to="https:" />
+
+	<test url="https://theunderminejournal.com/#us/aegwynn" />
+	<test url="https://theunderminejournal.com/#eu/aegwynn" />
+	<test url="https://theunderminejournal.com/#us/aegwynn/item/110609" />
+	<test url="https://theunderminejournal.com/#us/aegwynn/transmog/main" />
+</ruleset>
